@@ -152,6 +152,37 @@ git clone https://github.com/user/repository_name.git
 This will create a local copy of the repository in your current working directory.
 
 Additionally, the tutorial mentions that you can also clone a repository using the GitHub desktop application or by downloading a ZIP file of the repository and extracting it to your local system.
+</br></br></br>
+
+**Branch Commands**
+</br></br>
+The branch command in Git is used to create, list, rename, and delete branches in a repository. Here are some common use cases of the branch command:
+
+1. To create a new branch:
+   ```
+   git branch <branch_name>
+   ```
+
+2. To list all branches in the repository:
+   ```
+   git branch
+   ```
+
+3. To rename a branch:
+   ```
+   git branch -m <old_branch_name> <new_branch_name>
+   ```
+
+4. To delete a branch:
+   ```
+   git branch -d <branch_name>
+   ```
+
+These commands help in managing different lines of development within a Git repository.
+
+
+
+
 
 
 
