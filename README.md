@@ -136,7 +136,24 @@ git pull origin main
 ```
 Note: Make sure to replace `<file name>` and `<branch name>` with the actual names of your file and branch.
 
-Also, if you want to pull and push changes in a single command, you can use `git pull --rebase origin <branch name>` and then `git push origin <branch name>`. This will pull the changes from the remote repository, rebase your local changes on top of the pulled changes, and then push the updated changes to the remote repository.
+Also, if you want to pull and push changes in a single command, you can use `git pull --rebase origin <branch name>` and then `git push origin <branch name>`. This will pull the changes from the remote repository, rebase your local changes on top of the pulled changes, and then push the updated changes to the remote repository.</br></br>
+
+**How To Clone Repo in Local from GitHub**</br></br>
+According to the tutorial, to clone a repository in your local system, you can use the `git clone` command followed by the URL of the repository you want to clone.
+
+The syntax is:
+```
+git clone <repository_url>
+```
+For example:
+```
+git clone https://github.com/user/repository_name.git
+```
+This will create a local copy of the repository in your current working directory.
+
+Additionally, the tutorial mentions that you can also clone a repository using the GitHub desktop application or by downloading a ZIP file of the repository and extracting it to your local system.
+
+
 
 
 
