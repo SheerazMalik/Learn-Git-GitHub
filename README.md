@@ -1,5 +1,5 @@
 # Learn-Git-GitHub
-Complete Git and GitHub 
+Complete Git and GitHub (Author: Sheraz Ahmad)
 Git and GitHub are two related but distinct concepts:
 
 **Git**:
