@@ -15,6 +15,7 @@ Git and GitHub are two related but distinct concepts:
 * Provides a collaborative platform for developers to work together on projects, track changes, and manage different versions of their code.
 
 In summary, Git is a local tool for managing code, while GitHub is a web-based platform for storing and sharing Git repositories, facilitating collaboration and version control.
+</br>
 **How to Config git**
 
 
