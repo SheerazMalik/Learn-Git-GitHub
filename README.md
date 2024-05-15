@@ -64,6 +64,22 @@ The `clone` command is used to create a local copy of a remote Git repository. I
 The `status` command is used to check the status of your local Git repository. It shows you the current state of your project, including any changes you've made, files that are staged or unstaged, and any conflicts or issues that need to be resolved. The `status` command helps you keep track of your changes and ensures that you're aware of any modifications that need to be committed or pushed to the remote repository.
 
 In summary, `clone` is used to download a remote repository to your local machine, while `status` is used to check the current state of your local repository.
+</br></br></br></br>
+
+**4 Stages of files**
+
+In Git, files in your repository can be in one of four states:
+
+1. **Untracked**: A file that is not being tracked by Git. It's a new file that you've created or downloaded, but you haven't told Git to track it yet. Git doesn't know about this file, and it won't be included in your next commit.
+
+2. **Modified**: A file that has been changed since the last commit. You've made some changes to the file, but you haven't committed those changes yet. Git knows about the file and has seen the changes, but it's waiting for you to commit them.
+
+3. **Staged**: A file that has been modified and is ready to be committed. You've made changes to the file, and you've told Git to include those changes in your next commit. The file is now in the staging area, waiting to be committed.
+
+4. **Unmodified**: A file that hasn't been changed since the last commit. The file is exactly the same as it was in the last commit, and Git doesn't need to do anything with it.
+
+These states are important because they help you manage your changes and decide what to commit and what not to commit.
+
 
 
 
