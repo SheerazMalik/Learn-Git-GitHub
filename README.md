@@ -187,6 +187,38 @@ Here's a breakdown of the command:
 - `git pull`: This command combines the `git fetch` command (to retrieve changes from the remote repository) and the `git merge` command (to integrate those changes into the current branch).
 - `origin`: This is the name of the remote repository from which you want to fetch changes.
 - `main`: This specifies the branch in the remote repository that you want to pull changes from and merge into your current local branch.
+</br></br></br>
+
+**Basic Commands used in git** </br></br>
+Here is a brief explanation of the Git commands mentioned in the tutorial:
+
+1. **Clone**: This command is used to create a copy of a remote repository on your local machine. It is typically used when you want to start working on an existing project.
+
+   Command: `git clone <repository-url>`
+
+2. **Status**: This command shows the current status of your working directory and staging area. It displays information about untracked files, modified files, and staged files.
+
+   Command: `git status`
+
+3. **Add**: This command is used to add changes from the working directory to the staging area. It prepares the changes to be included in the next commit.
+
+   Command: `git add <file-name>`
+
+4. **Commit**: This command is used to record the changes in the repository. It creates a snapshot of the changes that have been staged.
+
+   Command: `git commit -m "Commit message"`
+
+5. **Push**: This command is used to upload local repository content to a remote repository. It is used to share your changes with others.
+
+   Command: `git push <remote-name> <branch-name>`
+
+6. **Reset**: This command is used to undo changes in the working directory and staging area. It can be used to unstage files or reset changes to a previous commit.
+
+   Command: `git reset <file-name>` or `git reset --hard <commit-hash>`
+
+These commands are fundamental to working with Git and are commonly used in version control workflows.
+
+
 
 
 
