@@ -180,6 +180,14 @@ The branch command in Git is used to create, list, rename, and delete branches i
 
 These commands help in managing different lines of development within a Git repository.
 
+**Git Pull Command**
+The command `git pull origin main` is used to fetch the changes from the remote repository named "origin" and merge them into the local branch "main". 
+
+Here's a breakdown of the command:
+- `git pull`: This command combines the `git fetch` command (to retrieve changes from the remote repository) and the `git merge` command (to integrate those changes into the current branch).
+- `origin`: This is the name of the remote repository from which you want to fetch changes.
+- `main`: This specifies the branch in the remote repository that you want to pull changes from and merge into your current local branch.
+
 
 
 
